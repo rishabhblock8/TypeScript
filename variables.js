@@ -1,0 +1,10 @@
+var apples = 5;
+var speed = 'fast';
+var hasName = true;
+var nothingMuch = null;
+console.log(apples);
+console.log(speed);
+console.log(hasName);
+console.log(nothingMuch);
+var now = new Date();
+console.log(now);
