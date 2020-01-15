@@ -41,3 +41,14 @@ console.log(point);
 const logNumber: (i: number) => void = (i:number) => {
     console.log(i);
 }
+
+//when to use annotations
+// 1) Funtion that returns the 'any' type
+const json = '{"x":154, "y":762}';
+const coordinates = JSON.parse(json);
+console.log(coordinates);
+
+// how to avoid any 
+const jsonn = '{"x":154, "y":762}';
+const coordinatess: {x:number, y:number} = JSON.parse(jsonn);
+console.log(coordinates);

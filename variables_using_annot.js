@@ -34,3 +34,12 @@ console.log(point);
 var logNumber = function (i) {
     console.log(i);
 };
+//when to use annotations
+// 1) Funtion that returns the 'any' type
+var json = '{"x":154, "y":762}';
+var coordinates = JSON.parse(json);
+console.log(coordinates);
+// how to avoid any 
+var jsonn = '{"x":154, "y":762}';
+var coordinatess = JSON.parse(jsonn);
+console.log(coordinates);
