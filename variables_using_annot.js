@@ -43,3 +43,22 @@ console.log(coordinates);
 var jsonn = '{"x":154, "y":762}';
 var coordinatess = JSON.parse(jsonn);
 console.log(coordinates);
+// 2) When we declare a variable on one line
+// and initialize it later
+var words = ['red', 'green', 'blue'];
+var foundWord;
+for (var i = 0; i < words.length; i++) {
+    if (words[i] === 'green') {
+        foundWord = true;
+    }
+}
+console.log(foundWord);
+// 3) Variable whose type cannot be inferred correctly
+var numbers = [-10, -1, 12];
+var numberAboveZero = false;
+for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] > 0) {
+        numberAboveZero = numbers[i];
+    }
+}
+console.log(numberAboveZero);
