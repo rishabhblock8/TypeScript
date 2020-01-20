@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 var Vehicle = /** @class */ (function () {
     function Vehicle() {
     }
+    // methods
     Vehicle.prototype.drive = function () {
         console.log('chugga chugga');
     };

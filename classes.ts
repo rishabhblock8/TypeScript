@@ -1,4 +1,5 @@
 class Vehicle {
+  // methods
     drive(): void{
         console.log('chugga chugga');
     }
